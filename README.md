@@ -1,1 +1,1 @@
-# DiscordServerCloner
+# Discord.Net ChannelLinkerBot
