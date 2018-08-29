@@ -1,6 +1,6 @@
 # Discord Server Cloner
 
-## Descript 
+## Description
 
 The title basically says it all.
 
