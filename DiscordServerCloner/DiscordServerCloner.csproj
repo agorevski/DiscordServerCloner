@@ -25,6 +25,7 @@
     <PackageReference Include="Serilog.Sinks.Literate" Version="2.0.0" />
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
     <PackageReference Include="System.ComponentModel.EventBasedAsync" Version="4.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
     <PackageReference Include="System.Threading.Timer" Version="4.3.0" />
     <PackageReference Include="timer" Version="2.1.0" />
   </ItemGroup>

@@ -56,27 +56,6 @@ namespace UtilityBot
                 socketChannelDict.Add(guildId, guild.Channels);
             }
 
-            // Clone Channels (disabled)
-            //{
-            //    foreach (var kvp in toFromGuildIds)
-            //    {
-            //        var fromId = kvp.Key;
-            //        var toId = kvp.Value;
-
-            //        var fromChannels = socketChannelDict[fromId].Select(e => e.Name);
-            //        var toChannels = socketChannelDict[toId].Select(e => e.Name);
-            //        var toGuild = socketGuildDict[toId];
-
-            //        foreach (var fromChannel in fromChannels)
-            //        {
-            //            var name = fromChannel;
-            //            if (!string.IsNullOrEmpty(name) && !toChannels.Contains(name, StringComparer.OrdinalIgnoreCase))
-            //            {
-            //                toGuild.CreateTextChannelAsync(name).Wait();
-            //            }
-            //        }
-            //    }
-            //}
         }
 
 
